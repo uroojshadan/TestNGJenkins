@@ -1,4 +1,4 @@
-package logintest;
+package TechfiosTests;
 
 import java.util.concurrent.TimeUnit;
 

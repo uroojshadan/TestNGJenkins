@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="logintest.LoginTest" duration-ms="6853" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:42Z">
+  <suite name="Command line suite" duration-ms="20687" started-at="2023-01-25T22:19:07Z" finished-at="2023-01-25T22:19:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6853" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:42Z">
-      <class name="logintest.LoginTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="initDriver" is-config="true" duration-ms="4588" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:40Z">
+    <test name="Command line test" duration-ms="20687" started-at="2023-01-25T22:19:07Z" finished-at="2023-01-25T22:19:28Z">
+      <class name="TechfiosTests.LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:TechfiosTests.LoginTest@dfd3711]" name="initDriver" is-config="true" duration-ms="6560" started-at="2023-01-25T22:19:07Z" finished-at="2023-01-25T22:19:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="test1" duration-ms="2097" started-at="2023-01-25T22:04:40Z" finished-at="2023-01-25T22:04:42Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TechfiosTests.LoginTest@dfd3711]" name="test1" duration-ms="2111" started-at="2023-01-25T22:19:14Z" finished-at="2023-01-25T22:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="tearDown" is-config="true" duration-ms="149" started-at="2023-01-25T22:04:42Z" finished-at="2023-01-25T22:04:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechfiosTests.LoginTest@dfd3711]" name="tearDown" is-config="true" duration-ms="161" started-at="2023-01-25T22:19:16Z" finished-at="2023-01-25T22:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- logintest.LoginTest -->
+      </class> <!-- TechfiosTests.LoginTest -->
+      <class name="TechfiosTests.AddCustomerTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:TechfiosTests.AddCustomerTest@42d3bd8b]" name="init" is-config="true" duration-ms="2555" started-at="2023-01-25T22:19:16Z" finished-at="2023-01-25T22:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addNewContact()[pri:2, instance:TechfiosTests.AddCustomerTest@42d3bd8b]" name="addNewContact" duration-ms="9090" started-at="2023-01-25T22:19:19Z" finished-at="2023-01-25T22:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechfiosTests.AddCustomerTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="192" started-at="2023-01-25T22:19:28Z" finished-at="2023-01-25T22:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechfiosTests.AddCustomerTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- logintest.LoginTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
