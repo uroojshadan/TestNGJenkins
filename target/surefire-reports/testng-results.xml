@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="logintest.LoginTest" duration-ms="6758" started-at="2023-01-25T21:55:15Z" finished-at="2023-01-25T21:55:22Z">
+  <suite name="logintest.LoginTest" duration-ms="6853" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6758" started-at="2023-01-25T21:55:15Z" finished-at="2023-01-25T21:55:22Z">
+    <test name="Command line test" duration-ms="6853" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:42Z">
       <class name="logintest.LoginTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="initDriver" is-config="true" duration-ms="4463" started-at="2023-01-25T21:55:15Z" finished-at="2023-01-25T21:55:19Z">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="initDriver" is-config="true" duration-ms="4588" started-at="2023-01-25T22:04:36Z" finished-at="2023-01-25T22:04:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="test1" duration-ms="2107" started-at="2023-01-25T21:55:19Z" finished-at="2023-01-25T21:55:21Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="test1" duration-ms="2097" started-at="2023-01-25T22:04:40Z" finished-at="2023-01-25T22:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="tearDown" is-config="true" duration-ms="171" started-at="2023-01-25T21:55:21Z" finished-at="2023-01-25T21:55:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:logintest.LoginTest@2f7a2457]" name="tearDown" is-config="true" duration-ms="149" started-at="2023-01-25T22:04:42Z" finished-at="2023-01-25T22:04:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
