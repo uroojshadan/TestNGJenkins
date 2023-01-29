@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,6 +18,7 @@ import org.testng.annotations.Test;
 public class AddCustomerTest {
 
 WebDriver driver;
+//String browser;
 	
 	// Fields List
 	By USERNAME_FIELD = By.xpath("//input[@id='username']");
@@ -71,6 +73,14 @@ WebDriver driver;
 	
 	@BeforeMethod
 	public void init() {
+//		browser = System.getProperty("browser");
+//		if (browser.equalsIgnoreCase("chrome")) {
+//			System.setProperty("webdriver.chrome.driver", "/Users/comet/Selenium/Drivers/chromedriver");
+//			driver = new ChromeDriver();
+//		} else if (browser.equalsIgnoreCase("firefox")) {
+//			System.setProperty("webdriver.gecko.driver", "/Users/comet/Selenium/Drivers/geckodriver");
+//			driver = new FirefoxDriver();
+//		}
 		System.setProperty("webdriver.chrome.driver", "/Users/comet/SeleniumWorkspace/driver/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();

@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2428" started-at="2023-01-25T21:45:58Z" finished-at="2023-01-25T21:46:00Z">
+  <suite name="Default suite" duration-ms="7283" started-at="2023-01-29T03:51:05Z" finished-at="2023-01-29T03:51:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2428" started-at="2023-01-25T21:45:58Z" finished-at="2023-01-25T21:46:00Z">
-      <class name="logintest.LoginTest">
-        <test-method status="PASS" signature="initDriver()[pri:0, instance:logintest.LoginTest@275710fc]" name="initDriver" is-config="true" duration-ms="2300" started-at="2023-01-25T21:45:58Z" finished-at="2023-01-25T21:46:00Z">
+    <test name="Default test" duration-ms="7283" started-at="2023-01-29T03:51:05Z" finished-at="2023-01-29T03:51:12Z">
+      <class name="TechfiosTests.LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:TechfiosTests.LoginTest@525f1e4e]" name="initDriver" is-config="true" duration-ms="4982" started-at="2023-01-29T03:51:05Z" finished-at="2023-01-29T03:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:logintest.LoginTest@275710fc]" name="test1" duration-ms="112" started-at="2023-01-25T21:46:00Z" finished-at="2023-01-25T21:46:00Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TechfiosTests.LoginTest@525f1e4e]" name="test1" duration-ms="2113" started-at="2023-01-29T03:51:10Z" finished-at="2023-01-29T03:51:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-      </class> <!-- logintest.LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TechfiosTests.LoginTest@525f1e4e]" name="tearDown" is-config="true" duration-ms="170" started-at="2023-01-29T03:51:12Z" finished-at="2023-01-29T03:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TechfiosTests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
